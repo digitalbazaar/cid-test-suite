@@ -1,0 +1,11 @@
+{
+  "name": "Sample",
+  "implementation": "Sample CID",
+  "issuers": [
+    {
+      "id": "https://cid.test-suite.app/static/sample.cid"
+      "tags": [ "cid" ]
+    }
+    }
+  ]
+}
