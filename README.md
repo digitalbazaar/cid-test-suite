@@ -37,7 +37,7 @@ npm i
 
 ## Setup
 
-Have a W3C Controlled Identifiers (CIDs) v1.0 document available on the web. The test-suite will do a GET request on the provided identifier.
+Have a W3C Controlled Identifiers (CIDs) v1.0 document available on the web. The test-suite will do a GET request on the provided endpoint and assert the response.
 
 ## Usage
 
@@ -71,8 +71,9 @@ module.exports = {
   implementations: [{
     name: 'My Company',
     implementation: 'My Implementation Name',
-    issuers: [{
-      id: 'https://example.com'.
+    identifiers: [{
+      id: 'https://example.com',
+      endpoint: 'https://example.com',
       tags: ['cid']
     }]
   }];
@@ -87,19 +88,22 @@ repo by following the
 [Adding a new implementation](https://github.com/w3c/vc-test-suite-implementations/tree/main?tab=readme-ov-file#adding-a-new-implementation)
 instructions.
 
-All endpoints will need the tag `vc2.0`. A simplified manifest will roughly
+All endpoints will need the tag `cid`. A simplified manifest will roughly
 look like the following:
 
 ```js
 {
   "name": "My Company",
   "implementation": "My implementation",
-  "issuers": [{
+  "identifiers": [{
     "id": "https://example.com",
+    "endpoint": "https://example.com",
     "tags": ["cid"]
   }]
 }
 ```
+
+The endpoint should return the CID, and the `id` value of the implementation should match the base identifier of the document.
 
 See
 [Adding a new implementation](https://github.com/w3c/vc-test-suite-implementations/tree/main?tab=readme-ov-file#adding-a-new-implementation)

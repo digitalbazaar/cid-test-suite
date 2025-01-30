@@ -6,8 +6,10 @@ module.exports = {
   implementations: [{
     name: 'My Company',
     implementation: 'My Implementation Name',
-    issuers: [{
-      id: 'https://example.com'
+    identifiers: [{
+      id: 'https://example.com',
+      endpoint: 'https://example.com',
+      tags: ['cid']
     }]
   }]
 };
