@@ -19,19 +19,21 @@ const require = createRequire(import.meta.url);
 chai.use(require('chai-json-schema'));
 
 const tag = 'cid';
-const {match} = filterByTag({tags: [tag]});
+const {match} = filterByTag({tags: [tag], property: 'identifiers'});
+console.log(match);
 
 describe('Json Schema Conformance', function() {
   setupMatrix.call(this, match);
   for(const [name, implementation] of match) {
-    const {settings: {id: documentId}} = implementation.issuers?.find(
-      issuer => issuer.tags.has(tag)) || null;
+    const {settings: {endpoint: documentEndpoint}} =
+      implementation.identifiers?.find(
+        identifier => identifier.tags.has(tag)) || null;
     const documentSchema = require('./fixtures/schema.json');
     let document;
     describe(name, function() {
       before(async function() {
         try {
-          document = await resolveDocument(documentId);
+          document = await resolveDocument(documentEndpoint);
         } catch(e) {
           console.error(
             `Couldn't resolve document.`,
