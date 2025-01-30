@@ -1,0 +1,263 @@
+{
+  "matrices": [
+    {
+      "title": "Json Schema Conformance",
+      "ctx": null,
+      "suites": [
+        {
+          "title": "OpSecId",
+          "ctx": null,
+          "suites": [],
+          "tests": [
+            {
+              "type": "test",
+              "title": "The resolved document is valid.",
+              "body": "async function() {\n          expect(document).to.be.jsonSchema(documentSchema);\n        //   document.should.be.jsonSchema(documentSchema);\n        }",
+              "async": 0,
+              "sync": true,
+              "_timeout": 15000,
+              "_slow": 75,
+              "_retries": -1,
+              "timedOut": false,
+              "_currentRetry": 0,
+              "pending": false,
+              "file": "/home/runner/work/cid-test-suite/cid-test-suite/tests/01-schema.js",
+              "parent": "DqChSU0gH4EfrmHzWrpDt",
+              "ctx": null,
+              "_testId": "urn:uuid:b0e21194-b06c-4801-b701-9f2e8c91d10c",
+              "cell": {
+                "columnId": "OpSecId",
+                "rowId": "The resolved document is valid."
+              },
+              "_events": {},
+              "_eventsCount": 1,
+              "timer": {
+                "_idleTimeout": -1,
+                "_idlePrev": null,
+                "_idleNext": null,
+                "_idleStart": 2646,
+                "_onTimeout": null,
+                "_repeat": null,
+                "_destroyed": true
+              },
+              "duration": 2,
+              "state": "passed",
+              "speed": "fast"
+            }
+          ],
+          "root": false,
+          "pending": false,
+          "_retries": -1,
+          "_beforeEach": [
+            {
+              "title": "\"before each\" hook: addPerTestMetadata in \"OpSecId\"",
+              "body": "function addPerTestMetadata() {\n// append test meta data to the it/test this.\n  this.currentTest.cell = {\n    columnId: this.currentTest.parent.title,\n    rowId: this.currentTest.title\n  };\n}",
+              "async": 0,
+              "sync": true,
+              "_timeout": 15000,
+              "_slow": 75,
+              "_retries": -1,
+              "timedOut": false,
+              "_currentRetry": 0,
+              "pending": false,
+              "type": "hook",
+              "parent": "DqChSU0gH4EfrmHzWrpDt",
+              "ctx": null,
+              "file": "/home/runner/work/cid-test-suite/cid-test-suite/tests/01-schema.js",
+              "originalTitle": "\"before each\" hook: addPerTestMetadata",
+              "_events": {},
+              "_eventsCount": 1,
+              "duration": 0,
+              "_error": null
+            }
+          ],
+          "_beforeAll": [
+            {
+              "title": "\"before all\" hook in \"OpSecId\"",
+              "body": "async function() {\n        try {\n          document = await resolveDocument(documentId);\n        } catch(e) {\n          console.error(\n            `Couldn't resolve document.`,\n            e\n          );\n        }\n\n      }",
+              "async": 0,
+              "sync": true,
+              "_timeout": 15000,
+              "_slow": 75,
+              "_retries": -1,
+              "timedOut": false,
+              "_currentRetry": 0,
+              "pending": false,
+              "type": "hook",
+              "parent": "DqChSU0gH4EfrmHzWrpDt",
+              "ctx": null,
+              "file": "/home/runner/work/cid-test-suite/cid-test-suite/tests/01-schema.js",
+              "originalTitle": "\"before all\" hook",
+              "_events": {},
+              "_eventsCount": 1,
+              "timer": {
+                "_idleTimeout": -1,
+                "_idlePrev": null,
+                "_idleNext": null,
+                "_idleStart": 365,
+                "_onTimeout": null,
+                "_repeat": null,
+                "_destroyed": true
+              },
+              "duration": 2325,
+              "_error": null
+            }
+          ],
+          "_afterEach": [],
+          "_afterAll": [],
+          "_timeout": 15000,
+          "_slow": 75,
+          "_bail": false,
+          "_onlyTests": [],
+          "_onlySuites": [],
+          "delayed": false,
+          "parent": "jjUoH1OhOg9TxdAXMrZL2",
+          "file": "/home/runner/work/cid-test-suite/cid-test-suite/tests/01-schema.js",
+          "_testId": "urn:uuid:434bbe20-c4b4-41b2-8746-6de479e0756f"
+        }
+      ],
+      "root": false,
+      "pending": false,
+      "_retries": -1,
+      "_beforeEach": [],
+      "_beforeAll": [],
+      "_afterEach": [],
+      "_afterAll": [],
+      "_timeout": 15000,
+      "_slow": 75,
+      "_bail": false,
+      "_onlyTests": [],
+      "_onlySuites": [],
+      "delayed": false,
+      "parent": "eEU-rp0X6_KhR3JluhNrs",
+      "file": "/home/runner/work/cid-test-suite/cid-test-suite/tests/01-schema.js",
+      "matrix": true,
+      "report": true,
+      "rowLabel": "Test Name",
+      "columnLabel": "Implementer",
+      "_testId": "urn:uuid:0fbac295-98ea-4757-a726-b9c1374e2940",
+      "columns": [
+        "OpSecId"
+      ],
+      "rows": [
+        {
+          "id": "The resolved document is valid.",
+          "cells": [
+            {
+              "type": "test",
+              "title": "The resolved document is valid.",
+              "body": "async function() {\n          expect(document).to.be.jsonSchema(documentSchema);\n        //   document.should.be.jsonSchema(documentSchema);\n        }",
+              "async": 0,
+              "sync": true,
+              "_timeout": 15000,
+              "_slow": 75,
+              "_retries": -1,
+              "timedOut": false,
+              "_currentRetry": 0,
+              "pending": false,
+              "file": "/home/runner/work/cid-test-suite/cid-test-suite/tests/01-schema.js",
+              "parent": "DqChSU0gH4EfrmHzWrpDt",
+              "ctx": null,
+              "_testId": "urn:uuid:b0e21194-b06c-4801-b701-9f2e8c91d10c",
+              "cell": {
+                "columnId": "OpSecId",
+                "rowId": "The resolved document is valid."
+              },
+              "_events": {},
+              "_eventsCount": 1,
+              "timer": {
+                "_idleTimeout": -1,
+                "_idlePrev": null,
+                "_idleNext": null,
+                "_idleStart": 2646,
+                "_onTimeout": null,
+                "_repeat": null,
+                "_destroyed": true
+              },
+              "duration": 2,
+              "state": "passed",
+              "speed": "fast"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "At Risk",
+      "rowLabel": "Statement",
+      "columnLabel": "Reason",
+      "columns": [
+        "At least 2 passing implementations"
+      ],
+      "rows": [
+        {
+          "id": "The resolved document is valid.",
+          "cells": [
+            {
+              "state": "failed"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "tables": [],
+  "summary": [],
+  "respecConfig": {
+    "shortName": "cid-test-suite",
+    "group": "vc",
+    "specStatus": "base",
+    "subtitle": "Controlled Identifiers (CIDs) v1.0 Conformance Report",
+    "github": "https://github.com/OpSecId/cid-test-suite",
+    "edDraftURI": "https://opsecid.github.io/cid-test-suite/",
+    "doJsonLd": true,
+    "includePermalinks": false,
+    "otherLinks": [
+      {
+        "key": "Related Specifications",
+        "data": [
+          {
+            "value": "Controlled Identifiers (CIDs) v1.0",
+            "href": "https://w3c.github.io/cid/"
+          }
+        ]
+      }
+    ],
+    "authors": [
+      {
+        "name": "Patrick St. Louis",
+        "url": "https://github.com/PatStLouis",
+        "company": "OpSecId",
+        "companyURL": "https://github.com/OpSecId"
+      }
+    ]
+  },
+  "title": "VC v2.0 Interoperability Report",
+  "stats": [],
+  "statusMarkLabels": {
+    "pending": {
+      "icon": "🚫",
+      "label": "Pending"
+    },
+    "passed": {
+      "icon": "✓",
+      "label": "Passed"
+    },
+    "failed": {
+      "icon": "❌",
+      "label": "Failed"
+    },
+    "accessDenied": {
+      "icon": "⊘",
+      "label": "Access Denied"
+    },
+    "timeout": {
+      "icon": "⏱",
+      "label": "Timeout"
+    },
+    "notImplemented": {
+      "icon": "—",
+      "label": "Not Implemented"
+    }
+  }
+}
