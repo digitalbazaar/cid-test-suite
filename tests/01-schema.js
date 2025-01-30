@@ -24,9 +24,6 @@ const {match} = filterByTag({tags: [tag]});
 describe('Json Schema Conformance', function() {
   setupMatrix.call(this, match);
   for(const [name, implementation] of match) {
-    // const {settings: {id: issuerId, options = {}}} = issuer;
-    // const documentId = implementation.issuers?.find(
-    //   issuer => issuer.tags.has(tag)) || null;
     const {settings: {id: documentId}} = implementation.issuers?.find(
       issuer => issuer.tags.has(tag)) || null;
     const documentSchema = require('./fixtures/schema.json');
