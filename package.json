@@ -1,0 +1,55 @@
+{
+    "name": "cid-test-suite",
+    "version": "2.0.0",
+    "description": "Test Suite for checking Controlled Identifiers (CIDs) v1.0 compliance.",
+    "main": "index.js",
+    "directories": {
+        "test": "tests"
+    },
+    "type": "module",
+    "scripts": {
+        "test": "mocha tests/ --reporter @digitalbazaar/mocha-w3c-interop-reporter --reporter-options abstract=\"$PWD/abstract.hbs\",reportDir=\"$PWD/reports\",respec=\"$PWD/respecConfig.json\",suiteLog='./suite.log',templateData=\"$PWD/reports/index.json\",title=\"VC v2.0 Interoperability Report\" --timeout 15000 --preserve-symlinks",
+        "lint": "eslint ."
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/OpSecId/cid-test-suite.git"
+    },
+    "keywords": [
+        "test",
+        "w3c",
+        "cid",
+        "controller identifiers"
+    ],
+    "author": {
+        "name": "W3C Verifiable Credentials Working Group",
+        "email": "public-vc-wg@w3.org",
+        "url": "https://www.w3.org/groups/wg/vc/"
+    },
+    "license": "(LicenseRef-w3c-3-clause-bsd-license-2008 OR LicenseRef-w3c-test-suite-license-2023)",
+    "engines": {
+        "node": ">=18"
+    },
+    "bugs": {
+        "url": "https://github.com/OpSecId/cid-test-suite/issues"
+    },
+    "homepage": "https://github.com/OpSecId/cid-test-suite#readme",
+    "dependencies": {
+        "@digitalbazaar/mocha-w3c-interop-reporter": "^1.5.0",
+        "bnid": "^3.0.0",
+        "chai": "^4.3.6",
+        "chai-json-schema": "^1.5.1",
+        "jsonld-signatures": "^11.3.0",
+        "klona": "^2.0.5",
+        "mocha": "^10.0.0",
+        "vc-test-suite-implementations": "github:w3c/vc-test-suite-implementations"
+    },
+    "devDependencies": {
+        "allure-commandline": "^2.30.0",
+        "allure-mocha": "^3.0.3",
+        "eslint": "^8.19.0",
+        "eslint-config-digitalbazaar": "^4.0.1",
+        "eslint-plugin-jsdoc": "^39.3.3",
+        "eslint-plugin-unicorn": "^43.0.0"
+    }
+}

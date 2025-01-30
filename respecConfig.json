@@ -1,0 +1,21 @@
+{
+    "shortName": "cid-test-suite",
+    "group": "vc",
+    "specStatus": "base",
+    "subtitle": "Controlled Identifiers (CIDs) v1.0 Conformance Report",
+    "github": "https://github.com/OpSecId/cid-test-suite",
+    "edDraftURI": "https://opsecid.github.io/cid-test-suite/",
+    "doJsonLd": true,
+    "includePermalinks": false,
+    "otherLinks": [{
+      "key": "Related Specifications",
+      "data": [{
+        "value": "Controlled Identifiers (CIDs) v1.0",
+        "href": "https://w3c.github.io/cid/"
+      }]
+    }],
+    "authors": [
+      { "name": "Patrick St. Louis", "url": "https://github.com/PatStLouis",
+        "company": "OpSecId", "companyURL": "https://github.com/OpSecId" }
+    ]
+  }

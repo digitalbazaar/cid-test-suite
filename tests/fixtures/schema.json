@@ -2,15 +2,8 @@
   "$schema": "http://json-schema.org/draft-07/schema#",
   "title": "Controller Document",
   "type": "object",
-  "required": ["@context", "id", "controller"],
+  "required": ["id"],
   "properties": {
-    "@context": {
-      "type": "array",
-      "items": {
-        "type": "string"
-      },
-      "minItems": 1
-    },
     "id": {
       "type": "string",
       "format": "uri"
@@ -212,5 +205,5 @@
       }
     }
   },
-  "additionalProperties": false
+  "additionalProperties": true
 }
