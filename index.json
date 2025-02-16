@@ -22,9 +22,9 @@
               "_currentRetry": 0,
               "pending": false,
               "file": "/home/runner/work/cid-test-suite/cid-test-suite/tests/01-schema.js",
-              "parent": "vf6g8GjCBhEXAy2PSOVjg",
+              "parent": "6DFgpbDs4CYx_xKR14XP3",
               "ctx": null,
-              "_testId": "urn:uuid:bcbbbc22-1603-4075-9569-b8a91ccdf28d",
+              "_testId": "urn:uuid:575eec70-462a-4cb6-a831-566df623ea94",
               "cell": {
                 "columnId": "OpSecId",
                 "rowId": "The resolved document is valid."
@@ -35,12 +35,12 @@
                 "_idleTimeout": -1,
                 "_idlePrev": null,
                 "_idleNext": null,
-                "_idleStart": 1107,
+                "_idleStart": 923,
                 "_onTimeout": null,
                 "_repeat": null,
                 "_destroyed": true
               },
-              "duration": 1,
+              "duration": 2,
               "state": "passed",
               "speed": "fast"
             }
@@ -61,7 +61,7 @@
               "_currentRetry": 0,
               "pending": false,
               "type": "hook",
-              "parent": "vf6g8GjCBhEXAy2PSOVjg",
+              "parent": "6DFgpbDs4CYx_xKR14XP3",
               "ctx": null,
               "file": "/home/runner/work/cid-test-suite/cid-test-suite/tests/01-schema.js",
               "originalTitle": "\"before each\" hook: addPerTestMetadata",
@@ -84,7 +84,7 @@
               "_currentRetry": 0,
               "pending": false,
               "type": "hook",
-              "parent": "vf6g8GjCBhEXAy2PSOVjg",
+              "parent": "6DFgpbDs4CYx_xKR14XP3",
               "ctx": null,
               "file": "/home/runner/work/cid-test-suite/cid-test-suite/tests/01-schema.js",
               "originalTitle": "\"before all\" hook",
@@ -94,12 +94,12 @@
                 "_idleTimeout": -1,
                 "_idlePrev": null,
                 "_idleNext": null,
-                "_idleStart": 362,
+                "_idleStart": 433,
                 "_onTimeout": null,
                 "_repeat": null,
                 "_destroyed": true
               },
-              "duration": 785,
+              "duration": 557,
               "_error": null
             }
           ],
@@ -111,9 +111,9 @@
           "_onlyTests": [],
           "_onlySuites": [],
           "delayed": false,
-          "parent": "SU0h-ISMCtoPa6qtW9uKe",
+          "parent": "UQvlia9QJgp5EfLocpcyO",
           "file": "/home/runner/work/cid-test-suite/cid-test-suite/tests/01-schema.js",
-          "_testId": "urn:uuid:37d129b4-19b3-4f4c-970d-7e16749a913c"
+          "_testId": "urn:uuid:59cce3e2-7fad-4641-9cd7-4d6ebc8deda1"
         }
       ],
       "root": false,
@@ -129,13 +129,13 @@
       "_onlyTests": [],
       "_onlySuites": [],
       "delayed": false,
-      "parent": "4g8amoRmhZwHxaxFPpppk",
+      "parent": "DVpIVms2B2pWycpuEpflM",
       "file": "/home/runner/work/cid-test-suite/cid-test-suite/tests/01-schema.js",
       "matrix": true,
       "report": true,
       "rowLabel": "Test Name",
       "columnLabel": "Implementer",
-      "_testId": "urn:uuid:77096559-021d-4721-825f-052952ff093d",
+      "_testId": "urn:uuid:74def847-3624-4961-ac87-18c370ea027d",
       "columns": [
         "OpSecId"
       ],
@@ -156,9 +156,9 @@
               "_currentRetry": 0,
               "pending": false,
               "file": "/home/runner/work/cid-test-suite/cid-test-suite/tests/01-schema.js",
-              "parent": "vf6g8GjCBhEXAy2PSOVjg",
+              "parent": "6DFgpbDs4CYx_xKR14XP3",
               "ctx": null,
-              "_testId": "urn:uuid:bcbbbc22-1603-4075-9569-b8a91ccdf28d",
+              "_testId": "urn:uuid:575eec70-462a-4cb6-a831-566df623ea94",
               "cell": {
                 "columnId": "OpSecId",
                 "rowId": "The resolved document is valid."
@@ -169,12 +169,12 @@
                 "_idleTimeout": -1,
                 "_idlePrev": null,
                 "_idleNext": null,
-                "_idleStart": 1107,
+                "_idleStart": 923,
                 "_onTimeout": null,
                 "_repeat": null,
                 "_destroyed": true
               },
-              "duration": 1,
+              "duration": 2,
               "state": "passed",
               "speed": "fast"
             }
