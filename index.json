@@ -22,9 +22,9 @@
               "_currentRetry": 0,
               "pending": false,
               "file": "/home/runner/work/cid-test-suite/cid-test-suite/tests/01-schema.js",
-              "parent": "6DFgpbDs4CYx_xKR14XP3",
+              "parent": "MzXdi4Lqc7Pvl5PhBUu_I",
               "ctx": null,
-              "_testId": "urn:uuid:575eec70-462a-4cb6-a831-566df623ea94",
+              "_testId": "urn:uuid:63068a28-f83b-4031-802e-dc317d6af888",
               "cell": {
                 "columnId": "OpSecId",
                 "rowId": "The resolved document is valid."
@@ -35,7 +35,7 @@
                 "_idleTimeout": -1,
                 "_idlePrev": null,
                 "_idleNext": null,
-                "_idleStart": 923,
+                "_idleStart": 1043,
                 "_onTimeout": null,
                 "_repeat": null,
                 "_destroyed": true
@@ -61,7 +61,7 @@
               "_currentRetry": 0,
               "pending": false,
               "type": "hook",
-              "parent": "6DFgpbDs4CYx_xKR14XP3",
+              "parent": "MzXdi4Lqc7Pvl5PhBUu_I",
               "ctx": null,
               "file": "/home/runner/work/cid-test-suite/cid-test-suite/tests/01-schema.js",
               "originalTitle": "\"before each\" hook: addPerTestMetadata",
@@ -84,7 +84,7 @@
               "_currentRetry": 0,
               "pending": false,
               "type": "hook",
-              "parent": "6DFgpbDs4CYx_xKR14XP3",
+              "parent": "MzXdi4Lqc7Pvl5PhBUu_I",
               "ctx": null,
               "file": "/home/runner/work/cid-test-suite/cid-test-suite/tests/01-schema.js",
               "originalTitle": "\"before all\" hook",
@@ -94,12 +94,12 @@
                 "_idleTimeout": -1,
                 "_idlePrev": null,
                 "_idleNext": null,
-                "_idleStart": 433,
+                "_idleStart": 364,
                 "_onTimeout": null,
                 "_repeat": null,
                 "_destroyed": true
               },
-              "duration": 557,
+              "duration": 718,
               "_error": null
             }
           ],
@@ -111,9 +111,9 @@
           "_onlyTests": [],
           "_onlySuites": [],
           "delayed": false,
-          "parent": "UQvlia9QJgp5EfLocpcyO",
+          "parent": "i5pAqEC2EqmswJzNDqoz1",
           "file": "/home/runner/work/cid-test-suite/cid-test-suite/tests/01-schema.js",
-          "_testId": "urn:uuid:59cce3e2-7fad-4641-9cd7-4d6ebc8deda1"
+          "_testId": "urn:uuid:a87a5476-0189-46b4-8aff-592a2b5b97a9"
         }
       ],
       "root": false,
@@ -129,13 +129,13 @@
       "_onlyTests": [],
       "_onlySuites": [],
       "delayed": false,
-      "parent": "DVpIVms2B2pWycpuEpflM",
+      "parent": "hHyA2WagAUs-7PbGOnCJB",
       "file": "/home/runner/work/cid-test-suite/cid-test-suite/tests/01-schema.js",
       "matrix": true,
       "report": true,
       "rowLabel": "Test Name",
       "columnLabel": "Implementer",
-      "_testId": "urn:uuid:74def847-3624-4961-ac87-18c370ea027d",
+      "_testId": "urn:uuid:f6fb7db5-297c-4548-bbb0-46833a677322",
       "columns": [
         "OpSecId"
       ],
@@ -156,9 +156,9 @@
               "_currentRetry": 0,
               "pending": false,
               "file": "/home/runner/work/cid-test-suite/cid-test-suite/tests/01-schema.js",
-              "parent": "6DFgpbDs4CYx_xKR14XP3",
+              "parent": "MzXdi4Lqc7Pvl5PhBUu_I",
               "ctx": null,
-              "_testId": "urn:uuid:575eec70-462a-4cb6-a831-566df623ea94",
+              "_testId": "urn:uuid:63068a28-f83b-4031-802e-dc317d6af888",
               "cell": {
                 "columnId": "OpSecId",
                 "rowId": "The resolved document is valid."
@@ -169,7 +169,7 @@
                 "_idleTimeout": -1,
                 "_idlePrev": null,
                 "_idleNext": null,
-                "_idleStart": 923,
+                "_idleStart": 1043,
                 "_onTimeout": null,
                 "_repeat": null,
                 "_destroyed": true
